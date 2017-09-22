@@ -1,0 +1,92 @@
+@charset 'utf-8';
+/* header开始 */
+@media screen and (max-width:960px) {
+	
+	header .topbar .logo{
+		float:none;
+		text-align:center;
+	}
+	header .topbar nav{
+		display:none;
+	}
+	header .topbar .topbar_r .login{
+		display:none;
+	}
+	header .topbar .topbar_r #register{
+		display:none;
+	}
+	header .topbar .container .topbar_r .menu{
+		display:block;
+		margin-top:-25px;
+	}
+	header .topbar_cont .content .content_r{
+		display:none;
+	}
+	header .topbar_cont video{
+		height:490px;
+	}
+	header .topbar_cont .content .content_l{
+		display:block;
+	}
+	/* main开始 */
+
+	/* sec1 开始 */
+	.main section .media .img{
+		display:block;
+	}
+	.main section .media .videowrap{
+		display:none;
+	}
+	/* sec2开始 */  /* sec3开始 */ /* sec4 开始 */ /* sec5 开始 */ /* sec6 开始 */
+	.main .sec  .text{
+		width:100%;
+		text-align:center;
+	}
+	.main .sec  .media{
+		width:100%;
+	}
+	.main .sec  .media img{
+		max-width:100%;
+	}
+	/* sec7 开始 */
+	.main .sec7{
+		display:none;
+	}
+	/* sec8 开始 */ /* sec9 开始 */
+	.main section.sec8 .imgwrap ul{
+		display:block;
+	}
+	/* sec10 开始 */
+	.main .sec10 p{
+		display:none;
+	}
+	.main .sec10 ul.flex{
+		flex-wrap:wrap;
+	}
+	.main .sec10 ul.flex li{
+		width:50%;
+		margin-left:0;
+	}
+	/* sec11 开始 */
+	.main .sec11{
+		display:none;
+	}
+	/* sec12 开始 */
+	.main .sec12{
+		display:none;
+	}
+	/* sec13 开始 */
+	.main .sec13 ul li.part3 .block{
+		display:none;
+	}
+	.main .sec13 ul li.part1 .wrap{
+		display:block;
+	}
+	.main .sec13 ul li.part1 .img{
+		position:relative;
+		margin-top:20px;
+	}
+	.main .sec13 ul li.part3 .block1{
+		max-width:100%;
+	}
+}
